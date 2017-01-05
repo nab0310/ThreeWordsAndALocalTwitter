@@ -13,10 +13,9 @@ var http = require("https");
 /*Initialize twit with keys from permission file*/
 var T = new twit(keys);
 
+var myVar = setInterval(getRandomWords, 600000);
 
 var words="";
-
-getRandomWords();
 
 function getRandomWords () {
     //var url = baseUrl +"/randomWords?hasDictionaryDef=false&minCorpusCount=0&maxCorpusCount=-1&minDictionaryCount=1&maxDictionaryCount=-1&minLength=5&maxLength=-1&limit=10&api_key=" + apiKey;
