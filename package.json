@@ -1,0 +1,24 @@
+{
+  "name": "threewordsandalocaltwitter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "ajax-request": "1.2.1",
+    "twit": "2.2.5"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nab0310/ThreeWordsAndALocalTwitter.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nab0310/ThreeWordsAndALocalTwitter/issues"
+  },
+  "homepage": "https://github.com/nab0310/ThreeWordsAndALocalTwitter#readme"
+}
